@@ -217,7 +217,6 @@ namespace Base {
 			this->tabPage1->TabIndex = 8;
 			this->tabPage1->Text = L"tabPage1";
 			this->tabPage1->UseVisualStyleBackColor = true;
-			tabPage1->Left = 500 ;
 			// 
 			// HomeTab
 			// 
