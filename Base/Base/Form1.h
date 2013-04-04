@@ -217,16 +217,16 @@ private: System::Windows::Forms::Label^  institutionNameDetailsLabel;
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->TimetablesTab = (gcnew System::Windows::Forms::TabPage());
 			this->HomeTab = (gcnew System::Windows::Forms::TabPage());
+			this->telephoneNumLabel = (gcnew System::Windows::Forms::Label());
+			this->websiteInfoLabel = (gcnew System::Windows::Forms::Label());
+			this->addressLine3Label = (gcnew System::Windows::Forms::Label());
+			this->addressLine2Label = (gcnew System::Windows::Forms::Label());
+			this->addressLine1Label = (gcnew System::Windows::Forms::Label());
+			this->institutionNameDetailsLabel = (gcnew System::Windows::Forms::Label());
 			this->settingsButton = (gcnew System::Windows::Forms::Button());
 			this->HomeTabInfoLabel = (gcnew System::Windows::Forms::Label());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->tabcontrol = (gcnew System::Windows::Forms::TabControl());
-			this->institutionNameDetailsLabel = (gcnew System::Windows::Forms::Label());
-			this->addressLine1Label = (gcnew System::Windows::Forms::Label());
-			this->addressLine2Label = (gcnew System::Windows::Forms::Label());
-			this->addressLine3Label = (gcnew System::Windows::Forms::Label());
-			this->websiteInfoLabel = (gcnew System::Windows::Forms::Label());
-			this->telephoneNumLabel = (gcnew System::Windows::Forms::Label());
 			this->LecturersTab->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->splitContainer1))->BeginInit();
 			this->splitContainer1->Panel1->SuspendLayout();
@@ -593,6 +593,90 @@ private: System::Windows::Forms::Label^  institutionNameDetailsLabel;
 			this->HomeTab->UseVisualStyleBackColor = true;
 			this->HomeTab->Click += gcnew System::EventHandler(this, &Form1::HomeTab_Click);
 			// 
+			// telephoneNumLabel
+			// 
+			this->telephoneNumLabel->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
+				| System::Windows::Forms::AnchorStyles::Left) 
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->telephoneNumLabel->AutoSize = true;
+			this->telephoneNumLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->telephoneNumLabel->Location = System::Drawing::Point(403, 416);
+			this->telephoneNumLabel->Name = L"telephoneNumLabel";
+			this->telephoneNumLabel->Size = System::Drawing::Size(54, 17);
+			this->telephoneNumLabel->TabIndex = 8;
+			this->telephoneNumLabel->Text = L"label12";
+			// 
+			// websiteInfoLabel
+			// 
+			this->websiteInfoLabel->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
+				| System::Windows::Forms::AnchorStyles::Left) 
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->websiteInfoLabel->AutoSize = true;
+			this->websiteInfoLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->websiteInfoLabel->Location = System::Drawing::Point(403, 389);
+			this->websiteInfoLabel->Name = L"websiteInfoLabel";
+			this->websiteInfoLabel->Size = System::Drawing::Size(54, 17);
+			this->websiteInfoLabel->TabIndex = 7;
+			this->websiteInfoLabel->Text = L"label11";
+			// 
+			// addressLine3Label
+			// 
+			this->addressLine3Label->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
+				| System::Windows::Forms::AnchorStyles::Left) 
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->addressLine3Label->AutoSize = true;
+			this->addressLine3Label->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->addressLine3Label->Location = System::Drawing::Point(403, 358);
+			this->addressLine3Label->Name = L"addressLine3Label";
+			this->addressLine3Label->Size = System::Drawing::Size(54, 17);
+			this->addressLine3Label->TabIndex = 6;
+			this->addressLine3Label->Text = L"label10";
+			// 
+			// addressLine2Label
+			// 
+			this->addressLine2Label->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
+				| System::Windows::Forms::AnchorStyles::Left) 
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->addressLine2Label->AutoSize = true;
+			this->addressLine2Label->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->addressLine2Label->Location = System::Drawing::Point(403, 331);
+			this->addressLine2Label->Name = L"addressLine2Label";
+			this->addressLine2Label->Size = System::Drawing::Size(46, 17);
+			this->addressLine2Label->TabIndex = 5;
+			this->addressLine2Label->Text = L"label9";
+			// 
+			// addressLine1Label
+			// 
+			this->addressLine1Label->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
+				| System::Windows::Forms::AnchorStyles::Left) 
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->addressLine1Label->AutoSize = true;
+			this->addressLine1Label->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->addressLine1Label->Location = System::Drawing::Point(403, 302);
+			this->addressLine1Label->Name = L"addressLine1Label";
+			this->addressLine1Label->Size = System::Drawing::Size(46, 17);
+			this->addressLine1Label->TabIndex = 4;
+			this->addressLine1Label->Text = L"label8";
+			// 
+			// institutionNameDetailsLabel
+			// 
+			this->institutionNameDetailsLabel->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
+				| System::Windows::Forms::AnchorStyles::Left) 
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->institutionNameDetailsLabel->AutoSize = true;
+			this->institutionNameDetailsLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, 
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->institutionNameDetailsLabel->Location = System::Drawing::Point(403, 271);
+			this->institutionNameDetailsLabel->Name = L"institutionNameDetailsLabel";
+			this->institutionNameDetailsLabel->Size = System::Drawing::Size(46, 17);
+			this->institutionNameDetailsLabel->TabIndex = 3;
+			this->institutionNameDetailsLabel->Text = L"label7";
+			// 
 			// settingsButton
 			// 
 			this->settingsButton->Location = System::Drawing::Point(8, 31);
@@ -648,90 +732,6 @@ private: System::Windows::Forms::Label^  institutionNameDetailsLabel;
 			this->tabcontrol->SizeMode = System::Windows::Forms::TabSizeMode::FillToRight;
 			this->tabcontrol->TabIndex = 0;
 			// 
-			// institutionNameDetailsLabel
-			// 
-			this->institutionNameDetailsLabel->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
-				| System::Windows::Forms::AnchorStyles::Left) 
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->institutionNameDetailsLabel->AutoSize = true;
-			this->institutionNameDetailsLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, 
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-			this->institutionNameDetailsLabel->Location = System::Drawing::Point(403, 271);
-			this->institutionNameDetailsLabel->Name = L"institutionNameDetailsLabel";
-			this->institutionNameDetailsLabel->Size = System::Drawing::Size(46, 17);
-			this->institutionNameDetailsLabel->TabIndex = 3;
-			this->institutionNameDetailsLabel->Text = L"label7";
-			// 
-			// addressLine1Label
-			// 
-			this->addressLine1Label->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
-				| System::Windows::Forms::AnchorStyles::Left) 
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->addressLine1Label->AutoSize = true;
-			this->addressLine1Label->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->addressLine1Label->Location = System::Drawing::Point(403, 302);
-			this->addressLine1Label->Name = L"addressLine1Label";
-			this->addressLine1Label->Size = System::Drawing::Size(46, 17);
-			this->addressLine1Label->TabIndex = 4;
-			this->addressLine1Label->Text = L"label8";
-			// 
-			// addressLine2Label
-			// 
-			this->addressLine2Label->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
-				| System::Windows::Forms::AnchorStyles::Left) 
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->addressLine2Label->AutoSize = true;
-			this->addressLine2Label->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->addressLine2Label->Location = System::Drawing::Point(403, 331);
-			this->addressLine2Label->Name = L"addressLine2Label";
-			this->addressLine2Label->Size = System::Drawing::Size(46, 17);
-			this->addressLine2Label->TabIndex = 5;
-			this->addressLine2Label->Text = L"label9";
-			// 
-			// addressLine3Label
-			// 
-			this->addressLine3Label->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
-				| System::Windows::Forms::AnchorStyles::Left) 
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->addressLine3Label->AutoSize = true;
-			this->addressLine3Label->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->addressLine3Label->Location = System::Drawing::Point(403, 358);
-			this->addressLine3Label->Name = L"addressLine3Label";
-			this->addressLine3Label->Size = System::Drawing::Size(54, 17);
-			this->addressLine3Label->TabIndex = 6;
-			this->addressLine3Label->Text = L"label10";
-			// 
-			// websiteInfoLabel
-			// 
-			this->websiteInfoLabel->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
-				| System::Windows::Forms::AnchorStyles::Left) 
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->websiteInfoLabel->AutoSize = true;
-			this->websiteInfoLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->websiteInfoLabel->Location = System::Drawing::Point(403, 389);
-			this->websiteInfoLabel->Name = L"websiteInfoLabel";
-			this->websiteInfoLabel->Size = System::Drawing::Size(54, 17);
-			this->websiteInfoLabel->TabIndex = 7;
-			this->websiteInfoLabel->Text = L"label11";
-			// 
-			// telephoneNumLabel
-			// 
-			this->telephoneNumLabel->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom) 
-				| System::Windows::Forms::AnchorStyles::Left) 
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->telephoneNumLabel->AutoSize = true;
-			this->telephoneNumLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->telephoneNumLabel->Location = System::Drawing::Point(403, 416);
-			this->telephoneNumLabel->Name = L"telephoneNumLabel";
-			this->telephoneNumLabel->Size = System::Drawing::Size(54, 17);
-			this->telephoneNumLabel->TabIndex = 8;
-			this->telephoneNumLabel->Text = L"label12";
-			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -747,6 +747,7 @@ private: System::Windows::Forms::Label^  institutionNameDetailsLabel;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Timetable Package";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->LecturersTab->ResumeLayout(false);
 			this->splitContainer1->Panel1->ResumeLayout(false);
 			this->splitContainer1->Panel2->ResumeLayout(false);
@@ -792,7 +793,10 @@ private: System::Void settingsButton_Click(System::Object^  sender, System::Even
 		 }
 private: System::Void HomeTab_Click(System::Object^  sender, System::EventArgs^  e) {
 			
-			 StreamReader^ institutionSettings = gcnew StreamReader("InstitutionSettings.txt");
+			
+		 }
+private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
+			  StreamReader^ institutionSettings = gcnew StreamReader("InstitutionSettings.txt");
 
 			 institutionNameDetailsLabel->Text = institutionSettings->ReadLine();
 			 addressLine1Label->Text = institutionSettings->ReadLine();
