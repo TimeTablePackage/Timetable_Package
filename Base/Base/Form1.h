@@ -792,7 +792,15 @@ private: System::Void settingsButton_Click(System::Object^  sender, System::Even
 		 }
 private: System::Void HomeTab_Click(System::Object^  sender, System::EventArgs^  e) {
 			
-			 
+			 StreamReader^ institutionSettings = gcnew StreamReader("InstitutionSettings.txt");
+
+			 institutionNameDetailsLabel->Text = institutionSettings->ReadLine();
+			 addressLine1Label->Text = institutionSettings->ReadLine();
+			 addressLine2Label->Text = institutionSettings->ReadLine();
+			 addressLine3Label->Text = institutionSettings->ReadLine();
+			 websiteInfoLabel->Text = institutionSettings->ReadLine();
+			 telephoneNumLabel->Text = institutionSettings->ReadLine();
+			 institutionSettings->Close();
 		 }
 };
 }
